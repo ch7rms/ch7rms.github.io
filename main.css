@@ -16,6 +16,10 @@ ul {
     }
   }
 
+  .disabled {
+    cursor: default !important;
+    pointer-events: none !important;
+  }
   .gif {
       top: 0px;
     float: left;
